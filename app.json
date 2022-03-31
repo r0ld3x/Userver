@@ -1,0 +1,69 @@
+{
+    "name": "Userver UserBot",
+    "description": "Simple telegram userbot, made in python using Telethon.",
+    "logo": "https://te.legra.ph/file/b07aa8013ade9349db83e.jpg",
+    "keywords": [
+        "userver",
+        "telegram",
+        "telethon",
+        "userbot",
+        "python",
+        "python3"
+    ],
+    "repository": "https://github.com/r0ld3x/Userver",
+    "success_url": "https://t.me/TheUserver",
+    "stack": "container",
+    "env": {
+        "API_ID": {
+            "description": "You api id, from my.telegram.org or @ScrapperRoBot.",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "You api hash, from my.telegram.org or @ScrapperRoBot.",
+            "value": ""
+        },
+        "SESSION": {
+            "description": "generate from https://replit.com/@r0ld3x/userver-session-generator or python ses_gen.py",
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "Bottoken @botfather",
+            "value": ""
+        },
+        "REDIS_URI": {
+            "description": "Redis endpoint URL, from redislabs.com",
+            "value": ""
+        },
+        "REDIS_PASS": {
+            "description": "Redis endpoint password, from redislabs.com",
+            "value": ""
+        },
+        "HANDLER": {
+            "description": "All Command handler",
+            "value": "."
+        },
+        "ADMIN": {
+            "description": "Admins id",
+            "value": "1317173146"
+        },
+        "LOG_CHAT": {
+            "description": "get all error logs in this chat id.",
+            "value": ""
+        },
+        "PIC_URL": {
+            "description": "Profile pic url get from @vTelegraphBot",
+            "value": "https://te.legra.ph/file/b07aa8013ade9349db83e.jpg"
+        },
+        "INSTA_SESSIONID": {
+            "description": "Instagram Session id for insta cmd",
+            "value": "",
+            "required": false
+        }
+    },
+    "formation": {
+        "userver": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}

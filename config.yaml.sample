@@ -1,0 +1,27 @@
+API_ID: #You api id, from my.telegram.org or @ScrapperRoBot.
+API_HASH: #You api id, from my.telegram.org or @ScrapperRoBot.
+
+SESSION:  #generate from https://replit.com/@r0ld3x/userver-session-generator or python ses_gen.py
+
+BOT_TOKEN: #@botfather
+
+# DATABASE
+
+REDIS_URI: #Redis endpoint URL, from redislabs.com
+REDIS_PORT: #
+REDIS_PASS: '' #Redis endpoint password, from redislabs.com
+
+
+#OTHERS 
+HANDLER: "."
+ADMIN: 1317173146 #admins
+HELP_ROWS: 4
+HELP_COLUMNS: 2
+HELP_EMOJI: "♥"
+LOG_CHAT:  #log chat
+PIC_URL: 'https://te.legra.ph/file/b07aa8013ade9349db83e.jpg' #@vTelegraphBot
+
+#API
+
+INSTA_SESSIONID: #instagram session id for .insta cmd
+

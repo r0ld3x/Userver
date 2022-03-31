@@ -1,0 +1,10 @@
+env/
+venv/
+.idea/
+.vscode/
+__pycache__/
+.test
+
+*.session-journal
+*.session
+*.log

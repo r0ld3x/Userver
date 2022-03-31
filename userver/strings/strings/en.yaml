@@ -1,0 +1,16 @@
+flag: 🇺🇸
+code: en
+name: English
+
+
+alive: #.alive
+  ALIVE_TEXT: |
+    **Hey I Am Userver I Simple Userver Bot For Telegram Users.**
+    **Owner**: **[{owner}](tg://user?id={user_id})**
+    **Userver Version**: **{version}**
+    **Python Version**: **{py_ver}**
+    **Telethon Version**: **{tele_version}**
+    **UpTime**: **{up_time}**
+
+
+

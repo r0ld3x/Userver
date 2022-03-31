@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  worker:
+    build: .
+    environment:
+      REDIS_URI: $REDIS_URI
+      REDIS_PASS: $REDIS_PASS
+      SESSION: $SESSION
+      API_ID: $API_ID 
+      API_HASH: $API_HASH 
+      BOT_TOKEN: $BOT_TOKEN 
+      ADMIN: $ADMIN 
+      LOG_CHAT: $LOG_CHAT 
+      PIC_URL: $PIC_URL 
