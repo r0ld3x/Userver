@@ -16,7 +16,7 @@ A Simple Userbot For Telegram made With Python And Telethon.
 
 
 ## Deployment
-* [Heroku](#Deploy-to-Heroku)
+* [Heroku](#Deploy-to-Heroku) (`Soon`)
 * [Local Machine](#Deploy-Locally)
 
 
@@ -32,11 +32,11 @@ One of the following database:
   - `REDIS_PASS` - Redis endpoint Password, from [redislabs](http://redislabs.com/).
 
 
-## Deploy to Heroku
+<!-- ## Deploy to Heroku
 Get the [Necessary Variables](#Necessary-Variables) and then click the button below!  
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/r0ld3x/Userver)
-
+ -->
 
 ## Deploy Locally
 - Get your [Necessary Variables](#Necessary-Variables)
